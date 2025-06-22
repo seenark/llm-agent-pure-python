@@ -34,6 +34,7 @@ This project demonstrates how to create a Language Learning Model (LLM) Agent us
 
 - Python 3.x
 - OpenAI API key
+- uv (Python package installer)
 
 ## Setup
 
@@ -42,7 +43,10 @@ This project demonstrates how to create a Language Learning Model (LLM) Agent us
    ```
    OPENAI_API_KEY=your_api_key_here
    ```
-3. Install dependencies using your preferred package manager
+3. Install dependencies using uv:
+   ```
+   uv sync
+   ```
 
 ## Usage
 
